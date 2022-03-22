@@ -1,0 +1,172 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="dark"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tevinson's Blog - Vault 13</title><meta name="keywords" content="个人博客"><meta name="author" content="先念"><meta name="copyright" content="先念"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#0d0d0d"><meta name="description" content="先念的个人博客">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tevinson&#39;s Blog">
+<meta property="og:url" content="https://www.tevinson997.space/index.html">
+<meta property="og:site_name" content="Tevinson&#39;s Blog">
+<meta property="og:description" content="先念的个人博客">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://www.tevinson997.space/img/Photo.jpg">
+<meta property="article:author" content="先念">
+<meta property="article:tag" content="个人博客">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://www.tevinson997.space/img/Photo.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://www.tevinson997.space/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":false,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Tevinson\'s Blog',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-03-22 22:02:02'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Tevinson's Blog" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/img/Photo.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/MainPage.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Tevinson's Blog</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友情链接</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Tevinson's Blog</h1><div id="site_social_icons"><a class="social-icon" href="https://github.com/Tevinson" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:tevinson997@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2022/03/21/%E3%80%90%E8%AE%BA%E6%96%87%E6%B1%89%E8%AF%91%E3%80%91%E7%B2%92%E5%AD%90%E7%B3%BB%E7%BB%9F%20by%20William%20T.Reeves/" title="【论文汉译】粒子系统 by William T.Reeves">     <img class="post_bg" src="/2022/03/21/%E3%80%90%E8%AE%BA%E6%96%87%E6%B1%89%E8%AF%91%E3%80%91%E7%B2%92%E5%AD%90%E7%B3%BB%E7%BB%9F%20by%20William%20T.Reeves/1646833141983.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【论文汉译】粒子系统 by William T.Reeves"></a></div><div class="recent-post-info"><a class="article-title" href="/2022/03/21/%E3%80%90%E8%AE%BA%E6%96%87%E6%B1%89%E8%AF%91%E3%80%91%E7%B2%92%E5%AD%90%E7%B3%BB%E7%BB%9F%20by%20William%20T.Reeves/" title="【论文汉译】粒子系统 by William T.Reeves">【论文汉译】粒子系统 by William T.Reeves</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-03-20T16:00:00.000Z" title="发表于 2022-03-21 00:00:00">2022-03-21</time></span></div><div class="content">免责声明本文章为 William T.Reeves 在1983年于期刊 ACM Transactions on Graphics 发表的文章 Particle Systems A Technique for Modeling a Class of Fuzzy Objects 的个人汉译，翻译过程中使用了电子词典等辅助工具，仅供学习交流使用，严禁转载。
+原文版权声明Author’s address: William T. Reeves, Lucasfilm Ltd, P.O. Box 2009, San Rafael, CA 94912. Permission to copy without fee all or part of this material is granted provided that the copies are not made or distributed for direct commercial advantage, the ACM copyright notice and the title of the publication and its date  ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/07/16/The%20Way%20Home%EF%BC%9A%E4%BB%8E%E3%80%8A%E8%BF%88%E9%98%BF%E5%AF%86%E7%83%AD%E7%BA%BF%E3%80%8B%E4%B8%A4%E9%83%A8%E6%9B%B2%E6%B5%85%E8%B0%88%E7%BE%8E%E5%BC%8F%E8%99%9A%E6%97%A0%E4%B8%BB%E4%B9%89/" title="The Way Home：从《迈阿密热线》两部曲浅谈美式虚无主义">     <img class="post_bg" src="/2021/07/16/The%20Way%20Home%EF%BC%9A%E4%BB%8E%E3%80%8A%E8%BF%88%E9%98%BF%E5%AF%86%E7%83%AD%E7%BA%BF%E3%80%8B%E4%B8%A4%E9%83%A8%E6%9B%B2%E6%B5%85%E8%B0%88%E7%BE%8E%E5%BC%8F%E8%99%9A%E6%97%A0%E4%B8%BB%E4%B9%89/Hotline%20Miami.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="The Way Home：从《迈阿密热线》两部曲浅谈美式虚无主义"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/07/16/The%20Way%20Home%EF%BC%9A%E4%BB%8E%E3%80%8A%E8%BF%88%E9%98%BF%E5%AF%86%E7%83%AD%E7%BA%BF%E3%80%8B%E4%B8%A4%E9%83%A8%E6%9B%B2%E6%B5%85%E8%B0%88%E7%BE%8E%E5%BC%8F%E8%99%9A%E6%97%A0%E4%B8%BB%E4%B9%89/" title="The Way Home：从《迈阿密热线》两部曲浅谈美式虚无主义">The Way Home：从《迈阿密热线》两部曲浅谈美式虚无主义</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-07-15T16:00:00.000Z" title="发表于 2021-07-16 00:00:00">2021-07-16</time></span></div><div class="content">引入说到像素艺术，可能大部分人的印象停留在FC红白机时代。受限于8位机的性能限制，非常有限的简单色彩像素点阵表示2D图形成为了像素艺术的名片。随着计算机性能的飞跃和计算机图形学的拓展，从8位机到16位机，再到现在普及的64位机，游戏世界的图形越来越逼真，甚至有时能够以假乱真。你也很难看到现在有游戏公司特地去开发一款像素风格的游戏了。不过你在几年前或许玩过一款叫作《挺进地牢（Enter The Gungeon）》的优秀平面射击像素风游戏，或者是玩过姊妹篇《逃出地牢（Exit The Gungeon）》。虽然已经不是像素的年代，但这两部作品不管是在游戏性还是声画表现上都足以称得上是像素艺术的典范。这两款游戏由Devolver Digital发行。也许对于大家来说，这个名字或许有些陌生。但在业界，Devolver Digital可以说是优秀小品游戏第一线制作公司，旗下的像素游戏精品不断。当然Devolver Digital并不只发行像素游戏，也许你觉得很好玩的一款小品就是Devolver Digital发行的。Devolver Digital于2012年10月23日在美国发行了《迈阿密热线（ ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/06/07/%E6%B2%89%E5%9C%A8%E9%85%92%E7%93%B6%E5%BA%95%E7%9A%84C++/" title="沉在酒瓶底的C++">     <img class="post_bg" src="/2021/06/07/%E6%B2%89%E5%9C%A8%E9%85%92%E7%93%B6%E5%BA%95%E7%9A%84C++/Alcohol.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="沉在酒瓶底的C++"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/06/07/%E6%B2%89%E5%9C%A8%E9%85%92%E7%93%B6%E5%BA%95%E7%9A%84C++/" title="沉在酒瓶底的C++">沉在酒瓶底的C++</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-06T16:00:00.000Z" title="发表于 2021-06-07 00:00:00">2021-06-07</time></span></div><div class="content">现在是晚上十点半，这家公司的办公大楼灯火依旧，不见有人想要离开大楼的一点点迹象。这也难怪，这家公司正处于快速上升期，生产的软件广受用户欢迎。公司上层也拿出了相当的诚意“狠狠地”奖励了相关的员工。而且几乎每个参加了公司重点项目的员工都收到了奖励，只是多少的问题。当然作为小组负责人的老贾也被数额庞大的奖金“砸”了一番。
+但是今天晚上，老贾在工位上喝醉了。
+老贾今年正好奔三，毕业于某名牌大学计算机系本科。单身，从未谈过恋爱，按他自己的话来说，活了小半辈子从来就没遇见值得他喜欢、爱和守护的那个她。不少同事还半开玩笑地说他是个同性恋，毕竟在业界也有句揶揄话叫“某名牌大学是男同的大本营”。大三的时候学院要求在读生必须到企业顶岗实习，还是小贾的老贾进入了一家大厂实习，靠着出色的工作能力被高层相中，签订了合同。按照合同，小贾一拿到毕业证就成为了这家大厂的正式员工。
+毕竟是大厂，薪水待遇都是业界高水平。得益于公司体系的成熟，实际能做的工作也很少。满腔热血、想要在业界大干一番的小贾正式进入公司后才发现理想落空了，很是不甘。陆陆续续工作了三年后，他辞职了。
+取而代之的是他在现在这家成立不满五年的中型互联网公 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/05/20/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86%E7%9A%84%E6%8E%A8%E5%B9%BF%EF%BC%9A%E6%A0%BC%E6%9E%97%E5%85%AC%E5%BC%8F%E7%9A%84%E6%8E%A8%E5%AF%BC%E5%8F%8A%E5%85%B6%E8%AF%81%E6%98%8E/" title="微积分基本定理的推广：格林公式的推导及其证明">     <img class="post_bg" src="/2021/05/20/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86%E7%9A%84%E6%8E%A8%E5%B9%BF%EF%BC%9A%E6%A0%BC%E6%9E%97%E5%85%AC%E5%BC%8F%E7%9A%84%E6%8E%A8%E5%AF%BC%E5%8F%8A%E5%85%B6%E8%AF%81%E6%98%8E/Green.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="微积分基本定理的推广：格林公式的推导及其证明"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/05/20/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86%E7%9A%84%E6%8E%A8%E5%B9%BF%EF%BC%9A%E6%A0%BC%E6%9E%97%E5%85%AC%E5%BC%8F%E7%9A%84%E6%8E%A8%E5%AF%BC%E5%8F%8A%E5%85%B6%E8%AF%81%E6%98%8E/" title="微积分基本定理的推广：格林公式的推导及其证明">微积分基本定理的推广：格林公式的推导及其证明</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-05-19T16:00:00.000Z" title="发表于 2021-05-20 00:00:00">2021-05-20</time></span></div><div class="content">学习背景近来在学习多元向量值函数积分学的时候学习到了“微积分基本定理的推广”一章中的格林（Green）公式时，我在理解公式含义时遇到了困难。并且大部分资料里面也只给出了格林公式的证明，我也没查找到公式的推导。恰巧在知乎上看到一篇关于格林公式的回答（相关链接放在本文文末），收获颇深。于此拾人牙慧，将格林公式的推导和证明完整演绎一遍。
+问题背景在物理学研究中经常遇到这样的问题：一个矢量沿着一段曲线运动，求这个矢量在运动过程中的矢量积。比较经典的例子就是变力沿曲线做功问题。根据“先易后难”的研究思路，我们对于此问题的研究限定在平面内的变力和封闭曲线。本来对于这个问题我们的思路是十分清晰的：将封闭曲线细分为无数个小段，确定变力F在每个小段的向量值，作内积，求和取极限（或者说在整个曲线上进行积分）就可以了。这是单纯地从微积分基本思想来认识这个问题的。虽然看起来理论上可行，但实际操作的时候，我们很容易遇到难题：这个曲线能不能用方程表示出来？每一小段和变力的夹角如何？等等。
+公式的推导我们今天的主角乔治·格林（George Green）爵士在十九世纪初期时也在思考这个问题。如何求变力沿着封闭平面曲线 ...</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2021/05/17/%E6%98%8E%E6%9C%88%E4%B8%8E%E7%BA%A2%E6%97%A5%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%AA%E9%98%B3%E4%B8%8D%E8%83%BD%E6%88%90%E4%B8%BA%E5%B8%B8%E8%A7%81%E7%9A%84%E6%96%87%E5%AD%A6%E6%84%8F%E8%B1%A1%EF%BC%9F/" title="明月与红日：为什么太阳不能成为常见的文学意象？">     <img class="post_bg" src="/2021/05/17/%E6%98%8E%E6%9C%88%E4%B8%8E%E7%BA%A2%E6%97%A5%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%AA%E9%98%B3%E4%B8%8D%E8%83%BD%E6%88%90%E4%B8%BA%E5%B8%B8%E8%A7%81%E7%9A%84%E6%96%87%E5%AD%A6%E6%84%8F%E8%B1%A1%EF%BC%9F/CAT&amp;STRAWBERRY&amp;PANCAKE_TOP.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="明月与红日：为什么太阳不能成为常见的文学意象？"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/05/17/%E6%98%8E%E6%9C%88%E4%B8%8E%E7%BA%A2%E6%97%A5%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%AA%E9%98%B3%E4%B8%8D%E8%83%BD%E6%88%90%E4%B8%BA%E5%B8%B8%E8%A7%81%E7%9A%84%E6%96%87%E5%AD%A6%E6%84%8F%E8%B1%A1%EF%BC%9F/" title="明月与红日：为什么太阳不能成为常见的文学意象？">明月与红日：为什么太阳不能成为常见的文学意象？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-05-16T16:00:00.000Z" title="发表于 2021-05-17 00:00:00">2021-05-17</time></span></div><div class="content">近来在搜寻资料的时候，无意间发现一个很有意思的现象：无论是古今，还是中外，文学作品（或者说艺术作品）中明月是出席最频繁的“主角”了。相比之下我们的红日先生就显得有些尴尬，你几乎很少看到单独地、直接地表现太阳的作品。
+“床前明月光，疑是地上霜”，这句唐诗是无数中国人小时候会诵的第一句诗；嫦娥奔月、玉兔捣药、吴刚伐桂、牛郎织女等等传说是多少年幼孩童向往的中国神话；《荷塘月色》《二泉映月》《月亮与六便士》等等文艺作品又何尝不是人们心中的美景。这些东西，无不例外与明月有关。而我们的太阳先生，在我的印象中除了希腊神话中与光明神阿波罗合体的太阳神赫利俄斯和中国神话中众人一体的太阳神帝俊、神农氏和羲和等人，就再无特别的文学意义上的相关物了。
+太阳作为自然界的能量之源，按道理他的地位应当是相当高的。是日出让大地重焕光明，是日照让气象获得温度，是日辉让万物充满生机。离开太阳，我们美丽的蓝色星球将迅速冷却，成为一颗毫无奇迹可言的冰星。而我们的明月女士，更像是躲在太阳先生身后的贵族大小姐。她在太阳先生回府休整的时候偷偷溜出来玩耍。她的温柔光辉来自太阳的恩赐，因而有时这份光辉总是会缺一块少一片。但她播撒的光辉 ...</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2021/05/13/%E6%9F%AF%E8%A5%BF%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%A7%AF%E5%88%86%E5%BD%A2%E5%BC%8F%E7%9A%84%E4%B8%A4%E7%A7%8D%E8%AF%81%E6%98%8E/" title="柯西不等式积分形式的两种证明">     <img class="post_bg" src="/2021/05/13/%E6%9F%AF%E8%A5%BF%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%A7%AF%E5%88%86%E5%BD%A2%E5%BC%8F%E7%9A%84%E4%B8%A4%E7%A7%8D%E8%AF%81%E6%98%8E/20210514.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="柯西不等式积分形式的两种证明"></a></div><div class="recent-post-info"><a class="article-title" href="/2021/05/13/%E6%9F%AF%E8%A5%BF%E4%B8%8D%E7%AD%89%E5%BC%8F%E7%A7%AF%E5%88%86%E5%BD%A2%E5%BC%8F%E7%9A%84%E4%B8%A4%E7%A7%8D%E8%AF%81%E6%98%8E/" title="柯西不等式积分形式的两种证明">柯西不等式积分形式的两种证明</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-05-12T16:00:00.000Z" title="发表于 2021-05-13 00:00:00">2021-05-13</time></span></div><div class="content">数学背景柯西不等式是法国数学家奥古斯丁·路易斯·柯西（Augustin Louis Cauchy）在数学分析的研究中所得到的。但确切的讲，柯西不等式应该被称作“柯西-布尼亚科夫斯基-施瓦茨不等式（Cauchy-Buniakowsky-Schwarz Inequality）”。这是因为后两位数学家彼此独立地将此不等式在积分学中推广，柯西不等式的应用才算真正基本完善。柯西不等式在不等式的证明中有着广泛的应用，因此成为了高等数学的重点研究内容之一。
+学习背景在人教版《数学——选修4-5 不等式选讲》中，教材初步向我们介绍了柯西不等式的二维形式$$ (a^2 + b^2)(c^2 + d^2) \geq (ac + bd)^2 $$当且仅当$$ ad = bc $$时等号成立.
+以及n维形式$$ \sum_{i = 1}^{n} { {a_i}^2} \sum_{i=1}^{n} { {b_i}^2} \geq (\sum_{i=1}^{n} { {a_i}{b_i} })^2 $$当且仅当$$ \frac{a_i}{b_i} = \frac{a_j}{b_j} (1 \leq i \leq  ...</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/Photo.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">先念</div><div class="author-info__description">先念的个人博客</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Tevinson" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:tevinson997@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">博客正处于不断优化状态，若访问中发生问题请谅解</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/03/21/%E3%80%90%E8%AE%BA%E6%96%87%E6%B1%89%E8%AF%91%E3%80%91%E7%B2%92%E5%AD%90%E7%B3%BB%E7%BB%9F%20by%20William%20T.Reeves/" title="【论文汉译】粒子系统 by William T.Reeves"><img src="/2022/03/21/%E3%80%90%E8%AE%BA%E6%96%87%E6%B1%89%E8%AF%91%E3%80%91%E7%B2%92%E5%AD%90%E7%B3%BB%E7%BB%9F%20by%20William%20T.Reeves/1646833141983.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【论文汉译】粒子系统 by William T.Reeves"/></a><div class="content"><a class="title" href="/2022/03/21/%E3%80%90%E8%AE%BA%E6%96%87%E6%B1%89%E8%AF%91%E3%80%91%E7%B2%92%E5%AD%90%E7%B3%BB%E7%BB%9F%20by%20William%20T.Reeves/" title="【论文汉译】粒子系统 by William T.Reeves">【论文汉译】粒子系统 by William T.Reeves</a><time datetime="2022-03-20T16:00:00.000Z" title="发表于 2022-03-21 00:00:00">2022-03-21</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/07/16/The%20Way%20Home%EF%BC%9A%E4%BB%8E%E3%80%8A%E8%BF%88%E9%98%BF%E5%AF%86%E7%83%AD%E7%BA%BF%E3%80%8B%E4%B8%A4%E9%83%A8%E6%9B%B2%E6%B5%85%E8%B0%88%E7%BE%8E%E5%BC%8F%E8%99%9A%E6%97%A0%E4%B8%BB%E4%B9%89/" title="The Way Home：从《迈阿密热线》两部曲浅谈美式虚无主义"><img src="/2021/07/16/The%20Way%20Home%EF%BC%9A%E4%BB%8E%E3%80%8A%E8%BF%88%E9%98%BF%E5%AF%86%E7%83%AD%E7%BA%BF%E3%80%8B%E4%B8%A4%E9%83%A8%E6%9B%B2%E6%B5%85%E8%B0%88%E7%BE%8E%E5%BC%8F%E8%99%9A%E6%97%A0%E4%B8%BB%E4%B9%89/Hotline%20Miami.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="The Way Home：从《迈阿密热线》两部曲浅谈美式虚无主义"/></a><div class="content"><a class="title" href="/2021/07/16/The%20Way%20Home%EF%BC%9A%E4%BB%8E%E3%80%8A%E8%BF%88%E9%98%BF%E5%AF%86%E7%83%AD%E7%BA%BF%E3%80%8B%E4%B8%A4%E9%83%A8%E6%9B%B2%E6%B5%85%E8%B0%88%E7%BE%8E%E5%BC%8F%E8%99%9A%E6%97%A0%E4%B8%BB%E4%B9%89/" title="The Way Home：从《迈阿密热线》两部曲浅谈美式虚无主义">The Way Home：从《迈阿密热线》两部曲浅谈美式虚无主义</a><time datetime="2021-07-15T16:00:00.000Z" title="发表于 2021-07-16 00:00:00">2021-07-16</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/06/07/%E6%B2%89%E5%9C%A8%E9%85%92%E7%93%B6%E5%BA%95%E7%9A%84C++/" title="沉在酒瓶底的C++"><img src="/2021/06/07/%E6%B2%89%E5%9C%A8%E9%85%92%E7%93%B6%E5%BA%95%E7%9A%84C++/Alcohol.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="沉在酒瓶底的C++"/></a><div class="content"><a class="title" href="/2021/06/07/%E6%B2%89%E5%9C%A8%E9%85%92%E7%93%B6%E5%BA%95%E7%9A%84C++/" title="沉在酒瓶底的C++">沉在酒瓶底的C++</a><time datetime="2021-06-06T16:00:00.000Z" title="发表于 2021-06-07 00:00:00">2021-06-07</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/05/20/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86%E7%9A%84%E6%8E%A8%E5%B9%BF%EF%BC%9A%E6%A0%BC%E6%9E%97%E5%85%AC%E5%BC%8F%E7%9A%84%E6%8E%A8%E5%AF%BC%E5%8F%8A%E5%85%B6%E8%AF%81%E6%98%8E/" title="微积分基本定理的推广：格林公式的推导及其证明"><img src="/2021/05/20/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86%E7%9A%84%E6%8E%A8%E5%B9%BF%EF%BC%9A%E6%A0%BC%E6%9E%97%E5%85%AC%E5%BC%8F%E7%9A%84%E6%8E%A8%E5%AF%BC%E5%8F%8A%E5%85%B6%E8%AF%81%E6%98%8E/Green.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="微积分基本定理的推广：格林公式的推导及其证明"/></a><div class="content"><a class="title" href="/2021/05/20/%E5%BE%AE%E7%A7%AF%E5%88%86%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%90%86%E7%9A%84%E6%8E%A8%E5%B9%BF%EF%BC%9A%E6%A0%BC%E6%9E%97%E5%85%AC%E5%BC%8F%E7%9A%84%E6%8E%A8%E5%AF%BC%E5%8F%8A%E5%85%B6%E8%AF%81%E6%98%8E/" title="微积分基本定理的推广：格林公式的推导及其证明">微积分基本定理的推广：格林公式的推导及其证明</a><time datetime="2021-05-19T16:00:00.000Z" title="发表于 2021-05-20 00:00:00">2021-05-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/05/17/%E6%98%8E%E6%9C%88%E4%B8%8E%E7%BA%A2%E6%97%A5%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%AA%E9%98%B3%E4%B8%8D%E8%83%BD%E6%88%90%E4%B8%BA%E5%B8%B8%E8%A7%81%E7%9A%84%E6%96%87%E5%AD%A6%E6%84%8F%E8%B1%A1%EF%BC%9F/" title="明月与红日：为什么太阳不能成为常见的文学意象？"><img src="/2021/05/17/%E6%98%8E%E6%9C%88%E4%B8%8E%E7%BA%A2%E6%97%A5%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%AA%E9%98%B3%E4%B8%8D%E8%83%BD%E6%88%90%E4%B8%BA%E5%B8%B8%E8%A7%81%E7%9A%84%E6%96%87%E5%AD%A6%E6%84%8F%E8%B1%A1%EF%BC%9F/CAT&amp;STRAWBERRY&amp;PANCAKE_TOP.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="明月与红日：为什么太阳不能成为常见的文学意象？"/></a><div class="content"><a class="title" href="/2021/05/17/%E6%98%8E%E6%9C%88%E4%B8%8E%E7%BA%A2%E6%97%A5%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%AA%E9%98%B3%E4%B8%8D%E8%83%BD%E6%88%90%E4%B8%BA%E5%B8%B8%E8%A7%81%E7%9A%84%E6%96%87%E5%AD%A6%E6%84%8F%E8%B1%A1%EF%BC%9F/" title="明月与红日：为什么太阳不能成为常见的文学意象？">明月与红日：为什么太阳不能成为常见的文学意象？</a><time datetime="2021-05-16T16:00:00.000Z" title="发表于 2021-05-17 00:00:00">2021-05-17</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E5%9B%BE%E5%BD%A2%E5%AD%A6/" style="font-size: 1.1em; color: #999">图形学</a> <a href="/tags/%E6%95%B0%E5%AD%A6/" style="font-size: 1.3em; color: #99a1ac">数学</a> <a href="/tags/%E9%9A%8F%E7%AC%94/" style="font-size: 1.5em; color: #99a9bf">随笔</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/03/"><span class="card-archive-list-date">三月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/07/"><span class="card-archive-list-date">七月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/06/"><span class="card-archive-list-date">六月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/05/"><span class="card-archive-list-date">五月 2021</span><span class="card-archive-list-count">3</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">6</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-03-22T14:02:02.264Z"></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By 先念</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
